@@ -8,8 +8,8 @@ private int dimensioni;
 
 private String smart;
 
-public Televisore(int codice, String nome, String marca, double prezzo, double iva, double prezzoIvato, int dimensioni, String smart){
-super(codice, nome, marca, prezzo, iva, prezzoIvato);
+public Televisore(int codice, String nome, String marca, double prezzo, double iva, int dimensioni, String smart){
+super(codice, nome, marca, prezzo, iva);
 this.dimensioni = dimensioni;
 this.smart = smart;
 

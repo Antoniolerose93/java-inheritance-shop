@@ -8,8 +8,8 @@ private int imei;
 
 private int memoria;
 
-public Smartphone(int codice, String nome, String marca, double prezzo, double iva, double prezzoIvato, int imei, int memoria){
-super(codice, nome, marca, prezzo, iva, prezzoIvato);
+public Smartphone(int codice, String nome, String marca, double prezzo, double iva, int imei, int memoria){
+super(codice, nome, marca, prezzo, iva);
 this.imei = imei;
 this.memoria = memoria;
 

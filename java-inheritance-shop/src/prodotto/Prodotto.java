@@ -27,15 +27,14 @@ private String nome;
 private String marca;
 private double prezzo;
 private double iva;
-private double prezzoIvato; 
 
-public Prodotto(int codice, String nome, String marca, double prezzo, double iva, double prezzoIvato){
+public Prodotto(int codice, String nome, String marca, double prezzo, double iva){
     this.codice = codice;
     this.nome = nome;
     this.marca = marca;
     this.prezzo = prezzo;
     this.iva = iva;
-    this.prezzoIvato = prezzoIvato;
+    
 }
 
 public int getCodice() {
@@ -47,25 +46,16 @@ public String getNome() {
     return nome;
 }
 
-public void setNome(String nome) {
-    this.nome = nome;
-}
 
 public String getMarca() {
     return marca;
 }
 
-public void setMarca(String marca) {
-    this.marca = marca;
-}
 
 public double getPrezzo() {
     return prezzo;
 }
 
-public void setPrezzo(double prezzo) {
-    this.prezzo = prezzo;
-}
 
 public double getIva() {
     return iva;
@@ -85,5 +75,6 @@ public String toString() {
            ", prezzo iva inclusa=" + getPrezzoIvato()
            ;
 }
+
 
 }

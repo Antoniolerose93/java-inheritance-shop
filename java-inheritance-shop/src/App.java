@@ -26,12 +26,13 @@ import televisore.Televisore;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Smartphone s1 = new Smartphone(150, "Galaxy", "Samsung", 250, 0.22,22, 12345, 50);
-        Televisore t1 = new Televisore(161, "Oled", "Sony", 1000, 0.22, 0, 55, "è smart");
-        Cuffie c1 = new Cuffie(166, "ABV", "Wesc", 50, 22, 0, "Rosso", "si");
+        Smartphone s1 = new Smartphone(164, "Galaxy", "Samsung", 200, 22, 3216, 64);
+        Televisore t1 = new Televisore(165, "nome", "Sony", 120, 22, 55, "non è smart");
+        Cuffie c1 = new Cuffie(166, "ABV", "Wesc", 50, 22, "Rosso", "si");
 
         System.out.println(s1);
         System.out.println(t1);
         System.out.println(c1);
+
     }
 }

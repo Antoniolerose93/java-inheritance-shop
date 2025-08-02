@@ -1,4 +1,3 @@
-
 package cuffie;
 
 import prodotto.Prodotto;
@@ -9,29 +8,21 @@ private String colore;
 
 private String cablate;
 
-public Cuffie(int codice, String nome, String marca, double prezzo, double iva, double prezzoIvato, String colore, String cablate){
-super(codice, nome, marca, prezzo, iva, prezzoIvato);
+public Cuffie(int codice, String nome, String marca, double prezzo, double iva, String colore, String cablate){
+super(codice, nome, marca, prezzo, iva);
 this.colore = colore;
 this.cablate = cablate;
 
 }
-
-
-
 
 public String getColore() {
     return colore;
 }
 
 
-
-
 public String getCablate() {
     return cablate;
 }
-
-
-
 
 @Override
 public String toString(){
