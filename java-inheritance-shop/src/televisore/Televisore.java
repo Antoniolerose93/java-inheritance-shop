@@ -6,9 +6,9 @@ public class Televisore extends Prodotto {
 
 private int dimensioni;
 
-private boolean smart;
+private String smart;
 
-public Televisore(int codice, String nome, String marca, double prezzo, double iva, double prezzoIvato, int dimensioni, boolean smart){
+public Televisore(int codice, String nome, String marca, double prezzo, double iva, double prezzoIvato, int dimensioni, String smart){
 super(codice, nome, marca, prezzo, iva, prezzoIvato);
 this.dimensioni = dimensioni;
 this.smart = smart;
@@ -23,7 +23,7 @@ public int getDimensioni() {
 
 
 
-public boolean getSmart() {
+public String getSmart() {
     return smart;
 }
 

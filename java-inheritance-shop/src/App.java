@@ -27,8 +27,8 @@ public class App {
     public static void main(String[] args) throws Exception {
 
         Smartphone s1 = new Smartphone(150, "Galaxy", "Samsung", 250, 0.22,22, 12345, 50);
-        Televisore t1 = new Televisore(161, "Oled", "Sony", 1000, 0.22, 0, 55, false);
-        Cuffie c1 = new Cuffie(166, "ABV", "Wesc", 50, 22, 0, "Rosso", false);
+        Televisore t1 = new Televisore(161, "Oled", "Sony", 1000, 0.22, 0, 55, "è smart");
+        Cuffie c1 = new Cuffie(166, "ABV", "Wesc", 50, 22, 0, "Rosso", "si");
 
         System.out.println(s1);
         System.out.println(t1);

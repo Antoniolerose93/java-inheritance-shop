@@ -7,9 +7,9 @@ public class Cuffie extends Prodotto {
 
 private String colore;
 
-private boolean cablate;
+private String cablate;
 
-public Cuffie(int codice, String nome, String marca, double prezzo, double iva, double prezzoIvato, String colore, boolean cablate){
+public Cuffie(int codice, String nome, String marca, double prezzo, double iva, double prezzoIvato, String colore, String cablate){
 super(codice, nome, marca, prezzo, iva, prezzoIvato);
 this.colore = colore;
 this.cablate = cablate;
@@ -26,7 +26,7 @@ public String getColore() {
 
 
 
-public boolean getCablate() {
+public String getCablate() {
     return cablate;
 }
 
@@ -36,8 +36,8 @@ public boolean getCablate() {
 @Override
 public String toString(){
     return "Cuffie{" +
-           ", memoria =" + getColore() +
-           ", memoria =" + getCablate() + "," +
+           "colore =" + getColore() +
+           ", sono cablate? =" + getCablate() + "," +
            super.toString()+'}';
 }
 
